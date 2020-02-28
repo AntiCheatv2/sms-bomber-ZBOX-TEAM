@@ -1,8 +1,8 @@
 #!/bin/bash
 clear
-echo -e "\e[4;31m SpeedX Productions !!! \e[0m"
+echo -e "\e[4;31m ZBOX \e[0m"
 echo -e "\e[1;34m Presents \e[0m"
-echo -e "\e[1;32m TBomb \e[0m"
+echo -e "\e[1;32m SMS-BOMBER \e[0m"
 echo "Press Enter To Continue"
 read a1
 if [[ -s update.speedx ]];then
@@ -14,7 +14,7 @@ echo .
 apt install figlet toilet python curl -y
 apt install python3-pip
 pip install -r requirements.txt
-echo This Script Was Made By SpeedX >update.speedx
+echo This Script Was Made By NICE
 echo Requirements Installed....
 echo Press Enter To Continue...
 read upd
